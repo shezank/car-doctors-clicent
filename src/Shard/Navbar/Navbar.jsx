@@ -18,7 +18,7 @@ const Navbar = () => {
 
         <NavLink to='/'><li><button>Home</button></li></NavLink>
         <NavLink to='/'><li><button>About</button></li></NavLink>
-        <NavLink to='/'><li><button>Services</button></li></NavLink>
+        <NavLink to='/services'><li><button>Services</button></li></NavLink>
         <NavLink to='/'><li><button>Blog</button></li></NavLink>
         <NavLink to='/'><li><button>Contact</button></li></NavLink>
         {user ?
